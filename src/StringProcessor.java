@@ -1,6 +1,3 @@
-import java.util.ArrayList;
-import java.util.Arrays;
-
 public class StringProcessor {
     public static final String INPUT_DATA = "Login;Name;Email" + System.lineSeparator() +
             "peterson;Chris Peterson;peterson@outlook.com" + System.lineSeparator() +
@@ -9,7 +6,7 @@ public class StringProcessor {
             "gregory;Mike Gregory;gregory@yahoo.com";
 
     public static void main(String[] args) {
-//        System.out.println(INPUT_DATA);
+        System.out.println(INPUT_DATA);
         System.out.println("===== Convert 1 demo =====");
         System.out.println(convert1(INPUT_DATA));
 
